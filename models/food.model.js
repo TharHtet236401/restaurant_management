@@ -24,3 +24,7 @@ const foodSchema = new mongoose.Schema({
         required: true,
     },
 });
+
+const Food = mongoose.model("Food", foodSchema);
+
+export default Food;
